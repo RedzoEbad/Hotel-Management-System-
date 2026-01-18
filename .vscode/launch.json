@@ -5,7 +5,7 @@
             "type": "java",
             "name": "Run Main",
             "request": "launch",
-            "mainClass": "Main",
+            "mainClass": "src.Main",
             "projectName": "hotel managment system_f1b4e244"
         },
         {
@@ -13,7 +13,7 @@
             "name": "Run All Tests",
             "request": "launch",
             "mainClass": "org.junit.runner.JUnitCore",
-            "args": "Hotel_ChainTest HotelTest ReservationTest ReserverPayerTest RoomTest RoomTypeTest IntegrationTest How_ManyTest",
+            "args": "src.Hotel_ChainTest src.HotelTest src.ReservationTest src.ReserverPayerTest src.RoomTest src.RoomTypeTest src.IntegrationTest src.How_ManyTest",
             "projectName": "hotel managment system_f1b4e244"
         }
     ]
