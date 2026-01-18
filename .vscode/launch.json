@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "hotel managment system_f1b4e244"
+        },
+        {
+            "type": "java",
+            "name": "Run All Tests",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "args": "Hotel_ChainTest HotelTest ReservationTest ReserverPayerTest RoomTest RoomTypeTest IntegrationTest How_ManyTest",
+            "projectName": "hotel managment system_f1b4e244"
+        }
+    ]
+}

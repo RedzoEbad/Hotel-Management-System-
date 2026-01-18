@@ -1,0 +1,13 @@
+{
+    "java.project.referencedLibraries": [
+        "junit-4.13.2.jar",
+        "hamcrest-core-1.3.jar"
+    ],
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-25",
+            "path": "C:\\Program Files\\Java\\jdk-25",
+            "default": true
+        }
+    ]
+}
