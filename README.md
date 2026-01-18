@@ -81,15 +81,3 @@ If you are using this project for a formal report, use the following description
 > **Domain Logic:** Demonstrates defensive checks (e.g., preventing negative room costs or invalid dates).
 > 
 > **Test Suite:** Displays green checkmarks for all unit tests, confirming 100% functional correctness.
-
----
-
-## 🛡️ License
-
-Distributed under the **MIT License**. See `LICENSE` for more information.
-
----
-
-<p align="center">
-  <b>Developed with ❤️ by <a href="https://github.com/hassanzzzj">Hassan</a></b>
-</p>

@@ -1,14 +1,13 @@
 
 import java.util.Date;
 
-
 public class Main {
-    
+
     public static void main(String[] args) {
         try {
             // 1. Hotel Chain aur Hotel banana
-            Hotel_Chain myChain = new Hotel_Chain("Serena Group");
-            Hotel myHotel = new Hotel("Serena Islamabad");
+            Hotel_Chain myChain = new Hotel_Chain("Ramada Group");
+            Hotel myHotel = new Hotel("Ramada karachi");
             myChain.addHotel(myHotel);
 
             // 2. Room Type aur Rooms set karna
@@ -25,7 +24,7 @@ public class Main {
             // 4. Reservation banana (Dates set karna)
             Date today = new Date();
             Date nextWeek = new Date(today.getTime() + (7 * 24 * 60 * 60 * 1000));
-            
+
             // UML: Reservation link with RoomType and Quantity (HowMany)
             Reservation myRes = Reservation.create(today, nextWeek, luxury, 1);
             // 5. Payer ko Reservation ke saath link karna
@@ -33,7 +32,7 @@ public class Main {
 
             // 6. Guest create karna aur Room mein occupy karwana
             // UML: Room creates/manages Guest
-            r101.createGuest("Ahmad Ali", "F-7, Islamabad");
+            r101.createGuest("Ebad Khan", "8, Karachi");
 
             // 7. Output Check
             System.out.println("\n--- Reservation Summary ---");
@@ -42,8 +41,7 @@ public class Main {
             System.out.println("Room Type: " + luxury.getKind());
             System.out.println("Total Cost per night: " + luxury.getCost());
             System.out.println("Status: System Running Successfully!");
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
         }
     }
