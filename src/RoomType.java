@@ -4,12 +4,12 @@ package src;
 
 public class RoomType {
 
-    private String kind;  // UML: RoomKind 
-    private double cost;  // UML: Money 
+    private String kind;  
+    private double cost;  
 
-    // Constructor: UML create() 
+    
     public RoomType(String kind, double cost) {
-        // Defensive Programming: Validation [cite: 25]
+        
         if (cost < 0) throw new IllegalArgumentException("Cost cannot be negative"); 
         if (kind == null || kind.isEmpty()) throw new IllegalArgumentException("Kind is required");
         

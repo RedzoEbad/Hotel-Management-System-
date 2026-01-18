@@ -4,7 +4,7 @@ public class Guest {
     private String name;
     private String addressDetails;
 
-    // Constructor (UML: create())
+    
     public Guest(String name, String addressDetails) {
         this.name = name;
         this.addressDetails = addressDetails;

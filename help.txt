@@ -1,0 +1,3 @@
+to run test file  :  .\test_all.bat
+to run program : .\run.bat
+to run help file : .\help.txt
